@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/earnest-crow-337908/', '.']
+  args: ['build', '-t', 'gcr.io/earnest-crow-337908/python-instance-final', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/earnest-crow-337908/']
+  args: ['push', 'gcr.io/earnest-crow-337908/python-instance-final']
